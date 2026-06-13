@@ -42,7 +42,7 @@ export function FinalSummary({
       <div className="grid grid-cols-2 gap-4">
         <Stat label="Total ronde" value={results.length} />
         <Stat
-          label="Rata-rata kerja sama"
+          label="Rata-rata setoran"
           value={`${Math.round(overallCoop * 100)}%`}
           accent="text-emerald-300"
         />

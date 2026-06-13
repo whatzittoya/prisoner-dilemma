@@ -7,13 +7,12 @@ export default function Home() {
     <main className="mx-auto flex w-full max-w-md flex-1 flex-col justify-center gap-7 px-5 py-12">
       <header className="text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-amber-500">
-          Permainan Teori Sosial
+          Permainan Kas Bersama
         </p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight">Dilema 10 Tahanan</h1>
         <p className="mt-3 text-sm leading-6 text-stone-400">
-          Tiap ronde kamu menyimpan atau menyumbang token ke kas bersama. Kas
-          dilipatgandakan lalu dibagi rata. Menyumbang baik untuk kelompok, tapi
-          menyimpan lebih menguntungkan diri sendiri — itulah dilemanya.
+          Tiap ronde, pilih berapa token yang kamu masukkan ke kas bersama. Kas
+          dikali lalu dibagi rata ke semua pemain. Kumpulkan poin sebanyak-banyaknya!
         </p>
       </header>
 

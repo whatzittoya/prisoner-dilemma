@@ -79,14 +79,14 @@ export function ContributionInput({
 
       <div className="flex justify-between text-xs text-stone-500">
         <button type="button" onClick={() => setDraft(0)} className="hover:text-stone-300">
-          0 · khianat penuh
+          0 · simpan semua
         </button>
         <button
           type="button"
           onClick={() => setDraft(endowment)}
           className="hover:text-stone-300"
         >
-          {endowment} · kerja sama penuh
+          {endowment} · setor semua
         </button>
       </div>
 
